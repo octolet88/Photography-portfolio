@@ -1,0 +1,164 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Home Style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="Home.HTML">Home</a>
+        </div>
+        <div class="navbar-right">
+            <a href="https://www.instagram.com/creelmanclicks" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="title-container">
+            <h1 class="main-title">Creelman Clicks</h1>
+        </div>
+    </main>
+
+    <!-- Animated Transition -->
+    <div class="transition-container">
+        <div class="transition-element"></div>
+    </div>
+
+    <!-- Photo Gallery -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-header text-center mb-5">
+                <h2>Photography Portfolio</h2>
+                <p>A collection of my best work</p>
+            </div>
+
+            <div class="row" data-masonry='{"percentPosition": true}'>
+                <!-- Horizontal frame -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card horizontal">
+                        <img src="Photos/Frond Frame.jpg" alt="Frond" class="photo-img img-fluid">
+                    </div>
+                </div>
+
+                <!-- Vertical frame -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card vertical">
+                        <img src="Photos/Spider Log.jpg" alt="Spider Log" class="photo-img img-fluid">
+                    </div>
+                </div>
+
+                <!-- Horizontal frame -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card horizontal">
+                        <img src="Photos/Evening Road.jpg" alt="Landscape" class="photo-img img-fluid">
+                    </div>
+                </div>
+
+                <!-- Vertical frame -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card vertical">
+                        <img src="Photos/Water Drop Leaf.jpg" alt="Portrait" class="photo-img img-fluid">
+                    </div>
+                </div>
+
+                <!-- Horizontal frame -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card horizontal">
+                        <img src="Photos/Water Drop Window.jpg" alt="Detail" class="photo-img img-fluid">
+                    </div>
+                </div>
+
+                <!-- Vertical frame -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card vertical">
+                        <img src="Photos/Northern Lights Vertical.jpg" alt="Panorama" class="photo-img img-fluid">
+                    </div>
+                </div>
+
+                <!-- Horizontal frame with placeholder -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card horizontal">
+                        <img src="Photos/B&W%20bkg%20Flower.jpg" alt="Portrait Scene" class="photo-img img-fluid">
+                        <span class="placeholder-text">Add Portrait Scene Photo</span>
+                    </div>
+                </div>
+
+                <!-- Vertical frame with placeholder -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card vertical">
+                        <img src="Photos/Tree%20Buds.jpg" alt="Nature" class="photo-img img-fluid">
+                        <span class="placeholder-text">Add Nature Photo</span>
+                    </div>
+                </div>
+
+                <!-- Horizontal frame with placeholder -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card horizontal">
+                        <img src="Photos/Air%20Plant%20.jpg" alt="Urban" class="photo-img img-fluid">
+                        <span class="placeholder-text">Add Urban Photo</span>
+                    </div>
+                </div>
+
+                <!-- Vertical frame with placeholder -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card vertical">
+                        <img src="Photos/Night%20Deck%20Lamps.jpg" alt="Portraits" class="photo-img img-fluid">
+                    </div>
+                </div>
+
+                <!-- Horizontal frame with placeholder -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card horizontal">
+                        <img src="" alt="Landscapes" class="photo-img img-fluid">
+                    </div>
+                </div>
+
+                <!-- Vertical frame with placeholder -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card vertical">
+                        <img src="" alt="Panoramas" class="photo-img img-fluid">
+                    </div>
+                </div>
+
+                <!-- Horizontal frame with placeholder -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card horizontal">
+                        <img src="" alt="Architecture" class="photo-img img-fluid">
+                    </div>
+                </div>
+
+                <!-- Vertical frame with placeholder -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card vertical">
+                        <img src="" alt="Street" class="photo-img img-fluid">
+                    </div>
+                </div>
+
+                <!-- Horizontal frame with placeholder -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card photo-card horizontal">
+                        <img src="" alt="Macro" class="photo-img img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- JavaScript for scroll effects, animations, and Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+        <script src="Home.js"></script>
