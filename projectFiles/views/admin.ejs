@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin</title>
+</head>
+<body>
+<h1>Admin Controls</h1>
+
+<h3>Image Upload</h3>
+<form method="POST" enctype="multipart/form-data">
+    <input type="file" name="image" accept="image/*">
+    <label>
+        <input type="number" name="position" min="1" max="150" >
+    </label>
+
+    <input type="submit">
+</form>
+</body>
+</html>
